@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 .conversor{
+    font-family: 'Poppins', serif;
+    font-size: .9rem;
     padding: 20px;
     max-width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 8px .1rem rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #153149;
+    color: white;
+}
+
+input[type='text']{
+    outline: none;
 }

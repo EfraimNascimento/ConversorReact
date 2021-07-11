@@ -22,7 +22,8 @@ export default class Conversor extends Component {
         let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=317c2626e5a0c3950b58`
 
         fetch(url).then(res=>{
-            return res.json()
+            
+            return res.json() 
 
             
         })
